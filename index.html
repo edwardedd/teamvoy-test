@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="wrapper-head">
+        <h1 class=head-title>POKEDEX</h1>
+      </div>
+        <div class="pokem-wrapper">
+          <div class="col-sm-8 col-md-8 col-lg-12">
+            <div id="poks"></div>
+          </div>
+        <div>
+          <div class="col-sm-4 col-md-4">          
+            <div class="pok_info">
+              <img  alt="" class="info-img">
+              <div class="name-wrapper">
+                <h3 class="info-name"></h3>
+                <h3 class="id"></h3>
+              </div>              
+              <table class="info-table">
+                <tr>
+                  <td class="type-title title">Type</td>
+                  <td class="type-val val"></td>
+                </tr>
+                <tr>
+                  <td class="attack-title title">Attack</td>
+                  <td class="attack-val val"></td>
+                </tr>
+                <tr>
+                  <td class="deffence-title title">Deffence</td>
+                  <td class="deffence-val val"></td>
+                </tr>
+                <tr>
+                  <td class="HP-title title">HP</td>
+                  <td class="HP-val val"></td>
+                </tr>
+                <tr>
+                  <td class="spAttack-title title">SP Attack</td>
+                  <td class="spAttack-val val"></td>
+                </tr>
+                <tr>
+                  <td class="spDefence-title title">SP Defence</td>
+                  <td class="spDefence-val val"></td>
+                </tr>
+                <tr>
+                  <td class="speed-title title">Speed</td>
+                  <td class="speed-val val"></td>
+                </tr>
+                <tr>
+                  <td class="weight-title title">Weight</td>
+                  <td class="weight-val val"></td>
+                </tr>
+                <tr>
+                  <td class="move-title title">Total moves</td>
+                  <td class="move-val val"></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="load btn btn-primary" type="button" >Load More</button>
+    <button class='filter btn btn-success' onclick="filter()">filter by poison</button>
+    <button class='filter btn btn-success' onclick="filterFire()">filter by fire</button>
+    <button class='filter btn btn-success' onclick="showAll()">show all pokemons</button>
+  </div>
+
+  <script src="index.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html> 
+
+

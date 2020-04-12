@@ -1,0 +1,141 @@
+
+#poks{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+  
+}
+
+.pokem-wrapper{
+  display: flex;
+}
+.pok_info{
+  width: 350px;
+  border: 1px solid black;
+  height: 550px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  opacity: 0;
+}
+.wrapper-head{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.head-title{
+  width: 50%;
+  text-align: center;
+  border: 1px solid black;
+}
+.pokContainer{
+  border: 1px solid black;
+  width: 220px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+.pokemonCard{
+  display: flex;
+  width: 220px;
+  height: 280px; 
+  flex-direction: column;
+  border: 1px solid black;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.pokeTypes{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+img{
+  width: auto;
+}
+
+h3{
+  text-align: center;
+}
+
+.load{
+  width:40%;
+  background-color: #3286FC;
+  color: white;
+  /* height: 50px; */
+}
+
+#grass{
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: linear-gradient(transparent -27%,green)
+}
+
+#flying{
+  background-color: indigo;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: linear-gradient(transparent -27%,indigo)
+}
+#electric{
+  background-color: #FFE7A1;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: linear-gradient(transparent -27%,#FFE7A1)
+}
+
+#fire{
+  background-color: #F19E9B;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: linear-gradient(transparent -27%,#F19E9B)
+}
+#water{
+  background-color: #0596EF;
+  padding: 5px 10px;
+  border-radius: 4px;
+  background: linear-gradient(transparent -27%,#0596EF)
+}
+#poison{
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: coral;
+  background: linear-gradient(transparent -27%,coral)
+}
+#bug{
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: saddlebrown;
+  background: linear-gradient(transparent -27%,saddlebrown)
+}
+
+table,tr,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  height: 45%;
+}
+.val{
+  text-align: center;
+}
+
+.info-table{
+  width: 94%;
+  margin: auto;
+}
+
+.title{
+  width: 70%;
+}
+.info-img{
+  margin: auto;
+  height: 45%;
+  width: 100%;
+}
+.name-wrapper{
+  display: flex;
+  justify-content: space-around;
+  height: 10%;
+}
